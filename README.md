@@ -1,6 +1,6 @@
 # vue2-month-range-picker
 
-這是一個非常簡易而且只有選擇年份的 Vue2 組件，支持西元轉民國年份轉換。
+這是一個非常簡易而且只有選擇月份範圍的 Vue2 組件，支持更換月份格式。
 
 ![範例](https://github.com/traveltime1221/vue2-month-range-picker/raw/main/src/assets/image/example.gif)
 
