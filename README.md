@@ -109,7 +109,7 @@ export default {
 
 ## 版本歷程
 
-* 1.0.0 第一次發布
+* 0.1.0 第一次發布
 
 ## License
 MIT

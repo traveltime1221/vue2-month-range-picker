@@ -1,6 +1,6 @@
 {
   "name": "vue2-month-range-picker",
-  "version": "1.0,0",
+  "version": "0.1.0",
   "description": "這是一個非常簡易而且只有選擇月份範圍的 Vue2 組件，支持更換月份格式。",
   "author": "traveltime1221",
   "license": "MIT",
