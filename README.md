@@ -1,4 +1,4 @@
-# vue2-year-picker
+# vue2-month-range-picker
 
 這是一個非常簡易而且只有選擇年份的 Vue2 組件，支持西元轉民國年份轉換。
 
