@@ -48,7 +48,10 @@ new Vue({
   <div id="app">
     <MonthRangePicker
         :monthFormat="monthFormat"
-        :startMonth="startMonth" :endMonth="endMonth" @update:startMonth="startMonth = $event"
+        :startMonth="startMonth"
+        :endMonth="endMonth"
+        placeholder="請選擇月份範圍"
+        @update:startMonth="startMonth = $event"
         @update:endMonth="endMonth = $event"/>
   </div>
 </template>
@@ -71,7 +74,10 @@ export default {
   <div id="app">
     <MonthRangePicker
         :monthFormat="monthFormat"
-        :startMonth="startMonth" :endMonth="endMonth" @update:startMonth="startMonth = $event"
+        :startMonth="startMonth"
+        :endMonth="endMonth"
+        placeholder="請選擇月份範圍"
+        @update:startMonth="startMonth = $event"
         @update:endMonth="endMonth = $event"/>
   </div>
 </template>
@@ -98,7 +104,7 @@ export default {
 | monthFormat    | Array     | 使用者預設月份格式, 若無攜帶系統則預設英文格式：['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']    | 
 | startMonth    | String     | 預設、傳遞選擇起始月份    |
 | endMonth    | String     | 預設、傳遞選擇結束月份    | 
-| placeholder    | String     | 提示輸入, 無攜帶系統預設為空值    | 
+| placeholder    | String     | 提示, 無攜帶系統預設為空值    | 
 
 
 ## 版本歷程
