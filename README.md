@@ -8,8 +8,8 @@
 
 ### 環境
 ```
-vue: ">=2.6.0 <2.7.0"
-vue-template-compiler: ">=2.6.0 <2.7.0"
+vue: ">=2.6.0 <2.7.16"
+vue-template-compiler: ">=2.6.0 <2.7.16"
 node: ">=12.0.0"
 ```
 
@@ -108,7 +108,7 @@ export default {
 
 
 ## 版本歷程
-
+* 1.1.0 文件修改, package.json 調整
 * 0.1.0 第一次發布
 
 ## License
